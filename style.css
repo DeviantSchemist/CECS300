@@ -1,0 +1,51 @@
+/*
+Theme Name: Miniva Child
+Theme URI: https://tajam.id/miniva/
+Template: miniva
+Author: Tajam
+Author URI: https://tajam.id/
+Description: A fast, lightweight, and mobile-friendly WordPress theme for bloggers. Miniva is built with simplicity, accessibility and performance in mind. The clean and minimal design helps readers focus on your content. It supports several Jetpack modules including featured content, infinite scroll, content options and social menu. See the theme demo at https://tajam.id/miniva-demo/
+Tags: accessibility-ready,blog,custom-background,custom-header,custom-logo,custom-menu,editor-style,featured-images,footer-widgets,full-width-template,grid-layout,left-sidebar,right-sidebar,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,two-columns
+Version: 1.1.1.1539364261
+Updated: 2018-10-12 17:11:01
+
+*/
+
+/* this is for the sizing of the main logo on the top of the webpage */
+.custom-logo {
+    width: 400px;
+    max-height: 400px;
+}
+
+/* This is for nav bar color change, will add the rest later */
+#menu-item-72 a:hover {
+  background-color: blue;
+}
+
+/* this is for the color when you hover over an element in the nav bar */
+#menu-item-72 a:active {
+  background-color: blue;
+}
+
+/* gets rid of annoying small ass text under the BRAIN INJURY ASSOCIATION OF AUSTIN text*/
+
+.posted-on {
+  display: none;
+}
+
+/* gets rid of annoying small ass text under the BRAIN INJURY ASSOCIATION OF AUSTIN text*/
+.byline {
+  display: none;
+}
+
+/* this is for the "Brain Injury Association of Austin" text under the navigation bar, TRYING TO CENTER IT RIGHT NOW*/
+/* I got the code from online, doesn't work properly at the moment*/
+.entry-title {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+
+}
