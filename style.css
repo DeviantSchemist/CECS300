@@ -38,14 +38,15 @@ Updated: 2018-10-12 17:11:01
   display: none;
 }
 
-/* this is for the "Brain Injury Association of Austin" text under the navigation bar, TRYING TO CENTER IT RIGHT NOW*/
-/* I got the code from online, doesn't work properly at the moment*/
+/* this is for the "Brain Injury Association of Austin" text under the navigation bar, CURRENTLY CENTERED*/
+html, body{
+  height:100%;
+}
+
+/* this is for the "Brain Injury Association of Austin" text under the navigation bar, CURRENTLY CENTERED*/
 .entry-title {
-  text-align: center;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  position: relative;
+  top:50%;
+  left:50%;
 
 }
