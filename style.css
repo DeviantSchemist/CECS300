@@ -48,5 +48,9 @@ html, body{
   position: relative;
   top:50%;
   left:50%;
+}
 
+/* gets rid of the footer text */
+.entry-footer {
+  display: none;
 }
