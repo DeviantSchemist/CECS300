@@ -11,24 +11,39 @@ Updated: 2018-10-12 17:11:01
 
 */
 
+.primary-menu nav ul li:hover,
+.primary-menu nav ul li:hover,
+.primary-menu nav ul li:hover,
+.primary-menu nav ul li:hover,
+.primary-menu nav ul li:hover{
+  background-color: #26546E;
+  color:#f4f4f4;
+}
+
+.primary-menu > li:hover > a {
+  color: #f4f4f4;
+  background-color: #26546E;
+}
+
+/* Nav bar color changed, text changes to white for contrast */
+#menu-item-72 a:hover, #menu-item-85 a:hover, #menu-item-71 a:hover, #menu-item-78 a:hover, #menu-item-80 a:hover, #menu-item-75 a:hover, #menu-item-76 a:hover, #menu-item-79 a:hover, #menu-item-74 a:hover, #menu-item-77 a:hover {
+  background-color: #26546E;
+  color:#f4f4f4;
+}
+
+/* this is for the color when you hover over an element in the nav bar */
+#menu-item-72 a:active, #menu-item-85 a:active, #menu-item-71 a:active, #menu-item-78 a:active, #menu-item-80 a:active, #menu-item-75 a:active, #menu-item-76 a:active, #menu-item-79 a:active, #menu-item-74 a:active, #menu-item-77 a:active {
+  background-color: #26546E;
+  color: #f4f4f4;
+}
+
 /* this is for the sizing of the main logo on the top of the webpage */
 .custom-logo {
     width: 400px;
     max-height: 400px;
 }
 
-/* This is for nav bar color change, will add the rest later */
-#menu-item-72 a:hover {
-  background-color: blue;
-}
-
-/* this is for the color when you hover over an element in the nav bar */
-#menu-item-72 a:active {
-  background-color: blue;
-}
-
 /* gets rid of annoying small ass text under the BRAIN INJURY ASSOCIATION OF AUSTIN text*/
-
 .posted-on {
   display: none;
 }
