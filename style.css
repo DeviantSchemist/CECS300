@@ -113,6 +113,13 @@ html, body{
   float: left;
 }
 
+
+/* this is the style for the header of the home page */
+#post-1 .entry-title {
+  position: relative;
+  left: 270px;
+}
+
 /* this is used to make the circle for the home page */
 #post-1 h3 {
   height: 300px;
@@ -127,10 +134,25 @@ html, body{
   margin-top: 100px;
 }
 
+/* this is the style for the first paragraph under the header in the home page */
+#post-1 .entry-content > p:first-of-type {
+  position: relative;
+  left: 250px;
+  /* border-bottom: 10px solid #4A8DA0 */  /* DON'T GET RID OF THIS, WILL USE FOR CREATING LINES LATER */
+}
+
 /* this is the style for the picture on the home page */
 #post-1 .entry-content > p:nth-of-type(2) {
   position: relative;
   left: 200px;
+  border-top: 10px solid #26546E;
+  border-bottom: 10px solid #26546E;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /* this is the style for the paragraph to the right of the circle on the home page */
@@ -139,19 +161,6 @@ html, body{
   left: 300px;
 }
 
-
-/* this is the style for the header of the home page */
-#post-1 .entry-title {
-  position: relative;
-  left: 270px;
-}
-
-/* this is the style for the first paragraph under the header in the home page */
-#post-1 .entry-content > p:first-of-type {
-  position: relative;
-  left: 250px;
-  /* border-bottom: 10px solid #4A8DA0 */  /* DON'T GET RID OF THIS, WILL USE FOR CREATING LINES LATER */
-}
 
 /* this is the style for the footer picture */
 #media_image-2 {
