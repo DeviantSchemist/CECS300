@@ -11,6 +11,13 @@ Updated: 2018-10-12 17:11:01
 
 */
 
+/* this is for the sizing of the main logo on the top of the webpage */
+.custom-logo {
+    width: 300px;
+    max-height: 300px;
+}
+
+/* this is for navigation color */
 .primary-menu nav ul li:hover,
 .primary-menu nav ul li:hover,
 .primary-menu nav ul li:hover,
@@ -20,6 +27,7 @@ Updated: 2018-10-12 17:11:01
   color:#f4f4f4;
 }
 
+/* this is for navigation color */
 .primary-menu > li:hover > a {
   color: #f4f4f4;
   background-color: #26546E;
@@ -37,32 +45,28 @@ Updated: 2018-10-12 17:11:01
   color: #f4f4f4;
 }
 
-/* this is for the sizing of the main logo on the top of the webpage */
-.custom-logo {
-    width: 400px;
-    max-height: 400px;
+/* font for navigation bar */
+#site-navigation {
+  font-family: "Lucida Bright", Merriweather, Lustria, Cardo;
 }
 
-/* gets rid of annoying small ass text under the BRAIN INJURY ASSOCIATION OF AUSTIN text*/
+/* WHY IS THE TITLE FOR THE HOME PAGE A LINK???? NEED TO DISABLE THE LINK */
+#post-1 .entry-title > a:hover {
+  color: #26546E;
+}
+
+/* gets rid of annoying small ass text under the header element */
 .posted-on {
   display: none;
 }
 
-/* gets rid of annoying small ass text under the BRAIN INJURY ASSOCIATION OF AUSTIN text*/
+/* gets rid of annoying small ass text under the header element */
 .byline {
   display: none;
 }
 
-/* this is for the "Brain Injury Association of Austin" text under the navigation bar, CURRENTLY CENTERED*/
 html, body{
   height:100%;
-}
-
-/* this is for the "Brain Injury Association of Austin" text under the navigation bar, CURRENTLY CENTERED*/
-.entry-title {
-  position: relative;
-  top:50%;
-  left:50%;
 }
 
 /* gets rid of the footer text */
@@ -70,26 +74,30 @@ html, body{
   display: none;
 }
 
-/*align text to the left*/
+/*align text to the left  - CLASS CREATED BY JAVIER*/
 .text-left{
-  text-align: left;  /* may or may not be useless code*/
+  text-align: left;
 }
 
+/* align text to the right - CLASS CREATED BY JAVIER*/
 .text-right{
-  text-align: right;  /* may or may not be useless code*/
+  text-align: right;
 }
 
-.wpcf7 {
-  text-align: center;  /* may or may not be useless code*/
+/* this is the font for the entire content of the website */
+#content {
+  font-family: "Lucida Bright", Merriweather, Lustria, Cardo;
 }
 
-/* this is used to select the footer, change the footer's color HERE */
+/* this is used to select the footer, change the footer's background color HERE */
 .site-footer {
   background-color: #26546E;
   padding-top: 0;
   padding-bottom: 0;
+  font-family: "Lucida Bright", Merriweather, Lustria, Cardo;
 }
 
+/* this is the style for the text in the footer */
 .site-footer > .container > .site-info {
   background-color: #26546E;
   color: white;
@@ -100,12 +108,72 @@ html, body{
   float: left;
 }
 
+/* this is used to make the picture in the footer be on the left side of the text */
 .footer-widgets {
   float: left;
 }
 
+/* this is used to make the circle for the home page */
+#post-1 h3 {
+  height: 300px;
+  width: 300px;
+  background-color: #26546E;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 300px;
+  float: left;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+/* this is the style for the picture on the home page */
+#post-1 .entry-content > p:nth-of-type(2) {
+  position: relative;
+  left: 200px;
+}
+
+/* this is the style for the paragraph to the right of the circle on the home page */
+#post-1 .entry-content > p:nth-of-type(3) {
+  position: relative;
+  left: 300px;
+}
+
+
+/* this is the style for the header of the home page */
+#post-1 .entry-title {
+  position: relative;
+  left: 270px;
+}
+
+/* this is the style for the first paragraph under the header in the home page */
+#post-1 .entry-content > p:first-of-type {
+  position: relative;
+  left: 250px;
+  /* border-bottom: 10px solid #4A8DA0 */  /* DON'T GET RID OF THIS, WILL USE FOR CREATING LINES LATER */
+}
+
+/* this is the style for the footer picture */
 #media_image-2 {
   position: relative;
   top: 30px;
   left: 300px;
+}
+
+/* this is the style for the header of the contact page */
+#post-26 .entry-title {
+  position: relative;
+  left: 400px;
+}
+
+/* this is the format for the contact page */
+.wpcf7 {
+  position: relative;
+  left: 200px;
+  text-align: center;
+}
+
+/* color of the "SEND" button on the contact form */
+.wpcf7-form > p > input {
+  background-color: #26546E;
 }
