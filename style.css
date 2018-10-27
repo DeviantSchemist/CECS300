@@ -187,3 +187,30 @@ html, body{
 .wpcf7-form > p > input {
   background-color: #26546E;
 }
+
+/* BELOW IS THE CODE FOR THE SERVICES PAGE */
+#post-110 .entry-title {
+  display: none;
+}
+
+#post-110 h1 {
+  font-weight: normal;
+  position: relative;
+  left: 200px;
+  margin-top: -70px;
+}
+
+#post-110 .entry-content {
+  margin: 0 auto;
+}
+
+#post-110 h2 {
+  /*position: relative; */
+  width: 100%;
+
+  /* left: 200px; */
+  transform: translateX(calc((500px - 100%) / 2));
+  text-align: center;
+  color: white;
+  background-color: #26546E;
+}
