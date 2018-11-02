@@ -243,11 +243,11 @@ html, body{
 }
 
 /* BELOW IS THE CODE FOR THE SERVICES PAGE */
-#post-110 .entry-title {
+#post-95 .entry-title {
   display: none;
 }
 
-#post-110 h1 {
+#post-95 h1 {
   font-weight: normal;
   position: relative;
   left: 200px;
@@ -255,21 +255,21 @@ html, body{
   border-bottom: 10px solid #26546E;
 }
 
-#post-110 .entry-content {
+#post-95 .entry-content {
   margin-bottom: -500px;
 }
 
-#post-110 .entry-content > p > img {
+#post-95 .entry-content > p > img {
   position: relative;
   left: 400px;
   bottom: 550px;
 }
 
-#post-110 .entry-content > p:nth-of-type(6) {
+#post-95 .entry-content > p:nth-of-type(6) {
   padding-right: 300px;
 }
 
-#post-110 h2 {
+#post-95 h2 {
   width: 1170px;
   transform: translateX(calc((1080px - 1170px) / 2 - 20px));
   text-align: center;
@@ -331,11 +331,11 @@ html, body{
 }
 
 /* BELOW IS THE CODE FOR THE STATE RESOURCES PAGE */
-#post-146 .entry-title {
+#post-110 .entry-title {
   display: none;
 }
 
-#post-146 .entry-content > h1 {
+#post-110 .entry-content > h1 {
   font-weight: normal;
   position: relative;
   margin-top: -70px;
