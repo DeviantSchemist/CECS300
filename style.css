@@ -6,15 +6,17 @@ Author: Tajam
 Author URI: https://tajam.id/
 Description: A fast, lightweight, and mobile-friendly WordPress theme for bloggers. Miniva is built with simplicity, accessibility and performance in mind. The clean and minimal design helps readers focus on your content. It supports several Jetpack modules including featured content, infinite scroll, content options and social menu. See the theme demo at https://tajam.id/miniva-demo/
 Tags: accessibility-ready,blog,custom-background,custom-header,custom-logo,custom-menu,editor-style,featured-images,footer-widgets,full-width-template,grid-layout,left-sidebar,right-sidebar,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,two-columns
-Version: 1.1.1.1539364261
-Updated: 2018-10-12 17:11:01
+Version: 1.1.1.1541175265
+Updated: 2018-11-02 16:14:25
 
 */
 
 /* this is for the sizing of the main logo on the top of the webpage */
 .custom-logo {
-    width: 300px;
-    max-height: 300px;
+    width: 500px;
+    max-height: 500px;
+    position: relative;
+    left: 20px;
 }
 
 /* this is for navigation color */
@@ -117,7 +119,8 @@ html, body{
 /* this is the style for the header of the home page */
 #post-1 .entry-title {
   position: relative;
-  left: 270px;
+  left: 250px;
+  font-size: 35px;
 }
 
 /* this is used to make the circle for the home page */
@@ -137,7 +140,9 @@ html, body{
 /* this is the style for the first paragraph under the header in the home page */
 #post-1 .entry-content > p:first-of-type {
   position: relative;
-  left: 250px;
+  left: 200px;
+  text-align: center;
+  font-size: 20px;
   /* border-bottom: 10px solid #4A8DA0 */  /* DON'T GET RID OF THIS, WILL USE FOR CREATING LINES LATER */
 }
 
@@ -156,7 +161,7 @@ html, body{
 }
 
 /* this is the style for the paragraph to the right of the circle on the home page */
-#post-1 .entry-content > p:nth-of-type(3) {
+#post-1 .entry-content > p:last-of-type {
   position: relative;
   left: 300px;
   overflow: hidden;
@@ -170,22 +175,71 @@ html, body{
   left: 300px;
 }
 
-/* this is the style for the header of the contact page */
-#post-26 .entry-title {
-  position: relative;
-  left: 400px;
+/* BELOW IS CODE FOR THE ABOUT PAGE */
+#post-32 .entry-title {
+  display: none;
 }
 
-/* this is the format for the contact page */
-.wpcf7 {
+#post-32 h1 {
+  font-weight: normal;
   position: relative;
   left: 200px;
-  text-align: center;
+  margin-top: -70px;
+  margin-bottom: 70px;
+  border-bottom: 10px solid #26546E;
 }
 
-/* color of the "SEND" button on the contact form */
-.wpcf7-form > p > input {
+#post-32 h3 {
+  height: 300px;
+  width: 300px;
   background-color: #26546E;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 300px;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  position: relative;
+  left: 700px;
+  bottom: 230px;
+}
+
+#post-32 .entry-content {
+  margin-bottom: -300px;
+}
+
+#post-32 .entry-content > p:first-of-type {
+  margin-bottom: -200px;
+}
+
+#post-32 .entry-content > p:nth-of-type(2), #post-32 .entry-content > p:nth-of-type(3),
+#post-32 .entry-content > p:nth-of-type(4), #post-32 .entry-content > p:nth-of-type(5),
+#post-32 .entry-content > p:nth-of-type(6), #post-32 .entry-content > p:nth-of-type(7),
+#post-32 .entry-content > p:nth-of-type(8), #post-32 .entry-content > p:nth-of-type(9),
+#post-32 .entry-content > p:nth-of-type(10) {
+  position: relative;
+  left: 430px;
+}
+
+#post-32 .entry-content > p:nth-of-type(11) {
+  position: relative;
+  left: 750px;
+  bottom: 470px;
+}
+
+#post-32 h4 {
+  height: 300px;
+  width: 300px;
+  background-color: #26546E;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 300px;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  position: relative;
+  top: 300px;
+  right: 300px;
 }
 
 /* BELOW IS THE CODE FOR THE SERVICES PAGE */
@@ -198,18 +252,95 @@ html, body{
   position: relative;
   left: 200px;
   margin-top: -70px;
+  border-bottom: 10px solid #26546E;
 }
 
 #post-110 .entry-content {
-  margin: 0 auto;
+  margin-bottom: -500px;
+}
+
+#post-110 .entry-content > p > img {
+  position: relative;
+  left: 400px;
+  bottom: 550px;
+}
+
+#post-110 .entry-content > p:nth-of-type(6) {
+  padding-right: 300px;
 }
 
 #post-110 h2 {
-  /*position: relative; */
-  width: 100%;
+  width: 1170px;
+  transform: translateX(calc((1080px - 1170px) / 2 - 20px));
+  text-align: center;
+  color: white;
+  background-color: #26546E;
+}
 
-  /* left: 200px; */
-  transform: translateX(calc((500px - 100%) / 2));
+/* BELOW IS CODE FOR THE CONTACT PAGE */
+
+#post-26 .entry-title {
+  display: none;
+}
+
+#post-26 .entry-content > h1 {
+  font-weight: normal;
+  position: relative;
+  margin-top: -70px;
+  width: 1170px;
+  transform: translateX(calc((1080px - 1170px) / 2 - 20px));
+  text-align: center;
+  color: white;
+  background-color: #26546E;
+  border-top: 10px solid #26546E;
+}
+
+#post-26 .entry-content > p:first-of-type,  #post-26 .entry-content > p:nth-of-type(2) {
+  position: relative;
+  left: 200px;
+}
+
+#post-26 .entry-content > p:nth-of-type(2) {
+  margin-bottom: 200px;
+}
+
+.wpcf7 {
+  position: relative;
+  left: 200px;
+}
+
+/* color of the "SEND" button on the contact form */
+.wpcf7-form > p > input {
+  background-color: #26546E;
+}
+
+/* BELOW IS THE CODE FOR THE LOCAL RESOURCES PAGE */
+#post-36 .entry-title {
+  display: none;
+}
+
+#post-36 .entry-content > h1 {
+  font-weight: normal;
+  position: relative;
+  margin-top: -70px;
+  width: 1170px;
+  transform: translateX(calc((1080px - 1170px) / 2 - 20px));
+  text-align: center;
+  color: white;
+  background-color: #26546E;
+}
+
+/* BELOW IS THE CODE FOR THE STATE RESOURCES PAGE */
+#post-146 .entry-title {
+  display: none;
+}
+
+#post-146 .entry-content > h1 {
+  font-weight: normal;
+  position: relative;
+  margin-top: -70px;
+  width: 1170px;
+  transform: translateX(calc((1080px - 1170px) / 2 - 20px));
   text-align: center;
   color: white;
   background-color: #26546E;
